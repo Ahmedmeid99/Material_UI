@@ -22,7 +22,7 @@ const MuiIcons = () => {
         </Button>
       </Stack>
       <Stack spacing={3} direction="row">
-        <IconButton variant="contained" color="primary">
+        <IconButton variant="contained" color="primary.main">
           <SendIcon />
         </IconButton>
       </Stack>

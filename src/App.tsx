@@ -1,10 +1,17 @@
-import React from "react";
 import "./App.css";
-import MuiButton from "./components/MuiButton";
-import MuiIcons from "./components/MuiIcons";
-import TypographyComponent from "./components/Typography";
-import MuiToggleButton from "./components/ToggleButton";
-import MuiTextField from "./components/MuiTextField";
+import MuiAccordion from "./components/MuiAccordion";
+// import LandingPage from "./components/LandingPage";
+// import MuiGrid from "./components/MuiGrid";
+// import MuiCard from "./components/MuiCard";
+// import MuiStack from "./components/MuiStack";
+// import MuiPaper from "./components/MuiPaper";
+// import MuiButton from "./components/MuiButton";
+// import MuiIcons from "./components/MuiIcons";
+// import TypographyComponent from "./components/Typography";
+// import MuiToggleButton from "./components/ToggleButton";
+// import MuiTextField from "./components/MuiTextField";
+// import MuiSelector from "./components/MuiSelector";
+// import MuiRadioButton from "./components/MuiRadioButton";
 
 function App() {
   return (
@@ -13,7 +20,15 @@ function App() {
       {/* <MuiButton /> */}
       {/* <MuiIcons /> */}
       {/* <MuiToggleButton /> */}
-      <MuiTextField />
+      {/* <MuiTextField /> */}
+      {/* <MuiSelector /> */}
+      {/* <MuiRadioButton /> */}
+      {/* <MuiPaper /> */}
+      {/* <MuiStack /> */}
+      {/* <MuiCard /> */}
+      {/* <MuiGrid /> */}
+      {/* <LandingPage /> */}
+      <MuiAccordion />
     </div>
   );
 }

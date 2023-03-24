@@ -1,6 +1,59 @@
-.App {
-  padding-top: 4rem;
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80% !important;
   margin: auto;
-  width: fit-content;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.hero-title::before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background: #333;
+  z-index: -1;
+  border-radius: 5px;
+}
+.hero-title::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 40px;
+  background: #333333;
+  z-index: -1;
+  border-radius: 50%;
+}
+@media (max-width: 900px) {
+  .container {
+    width: 90% !important;
+  }
+}
+@media (max-width: 786px) {
+  .container {
+    width: 95% !important;
+  }
+}
+
+.landing-img {
+  margin: auto !important;
+  display: block;
+  max-width: 100%;
+}
+
+@media (max-width: 786px) {
+  .img-container {
+    margin: auto !important;
+  }
+  .nav-links {
+    display: none !important;
+  }
 }
