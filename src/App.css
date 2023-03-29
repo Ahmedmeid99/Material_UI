@@ -3,6 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  height: 1000px;
+}
+/* .App {
+  width: 80%;
+  margin: auto;
+} */
 .container {
   width: 80% !important;
   margin: auto;

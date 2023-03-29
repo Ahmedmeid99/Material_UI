@@ -1,5 +1,10 @@
 import "./App.css";
-import MuiAccordion from "./components/MuiAccordion";
+import MuiBreadcrumbs from "./components/MuiBreadcrumbs";
+// import MuiLink from "./components/MuiLink";
+import MuiNavbar from "./components/MuiNavbar";
+// import MuiNavbar2 from "./components/MuiNavbar2";
+// import MuiAccordion from "./components/MuiAccordion";
+// import MuiImgList from "./components/MuiImgList";
 // import LandingPage from "./components/LandingPage";
 // import MuiGrid from "./components/MuiGrid";
 // import MuiCard from "./components/MuiCard";
@@ -28,7 +33,11 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiGrid /> */}
       {/* <LandingPage /> */}
-      <MuiAccordion />
+      {/* <MuiAccordion /> */}
+      {/* <MuiImgList /> */}
+      <MuiNavbar />
+      {/* <MuiLink /> */}
+      <MuiBreadcrumbs />
     </div>
   );
 }
